@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe'); */
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|ZCOOL+KuaiLe');
+
+
+body  {
+  /* background-image: url("http://wallsdesk.com/wp-content/uploads/2016/08/White-Abstract-Pictures.png"); */
+  background: #fff;
+}
+
+.code {
+  font-size: 6rem;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+
+.error {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  margin-top: -14rem;
+  transform: rotate(280deg);
+  font-size: 2.1rem;
+  position: relative;
+  left: 2px;
+  bottom: 13px;
+}
+
+.E, .R {
+  color: #fff;
+}
+
+.R {
+  letter-spacing: -3px;
+}
+
+.rocket {
+  width: 80px;
+  height:80px;
+  /* background: red; */
+  margin-left:48%;
+  margin-top:8rem;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #fff;
+}
+
+.rocket i {
+  color: #ffba5a;
+  transform: rotate(-90deg);
+  margin: 30px 0 0 30px;
+}
+
+.rocket:hover i {
+  animation:rocketL 2s ease-in-out;
+}
+
+@keyframes rocketL {
+
+  0% {
+    transform: translateY(0);
+    transform: rotate(-90deg);
+  }
+
+  50% {
+    transform: translateY(2rem);
+  }
+
+  100% {
+    transform: translateY(12rem);
+    transform: rotate(-190deg);
+  }
+}
